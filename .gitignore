@@ -1,0 +1,51 @@
+# Secrets
+.hf_token
+open-ai-token.txt
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+*.pyo
+
+# Virtual environments
+venv-curriculum/
+venv-new/
+venv/
+.venv/
+
+# Data: by default everything ignored; explicitly allow the release artifacts
+/data/*
+!/data/README.md
+!/data/processed/
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/processed/combined_pku_hh.jsonl
+!/data/processed/clean_parsed_gpt.jsonl
+!/data/processed/hh_rlhf_clean_gpt.jsonl
+!/data/processed/clean_parsed_gpt_stats.json
+!/data/raw/
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Training outputs and logs
+/outputs/
+/results/
+/logs/
+
+# Paper drafts and internal scratch
+/documents/
+/progress/
+
+# Internal author notes (not for public release)
+fixes.md
+llm-feedback.md
+results-1.md
+summary.md
+
+# Claude Code config
+.claude/
+
+# Misc
+test_mkdir_output/
+*.lock

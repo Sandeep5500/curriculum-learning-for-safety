@@ -1,0 +1,19 @@
+# LLM training and evaluation
+transformers>=4.36.0
+peft>=0.7.0
+trl>=0.7.0
+datasets>=2.16.0
+accelerate>=0.25.0
+torch>=2.0.0
+
+# Embeddings and evaluation
+sentence-transformers>=2.2.0
+evaluate>=0.4.0
+bert_score>=0.3.13
+
+# Inference / serving
+vllm>=0.2.0
+
+# Utilities
+tqdm>=4.65.0
+numpy>=1.24.0

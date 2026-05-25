@@ -1,0 +1,10 @@
+{
+  "total": 43452,
+  "clean_both_pass": 6914,
+  "clean_pct": 0.15911810733683143,
+  "chosen_safe": 7719,
+  "chosen_unsafe": 35733,
+  "rejected_unsafe": 42521,
+  "rejected_safe": 931,
+  "errors": 0
+}
