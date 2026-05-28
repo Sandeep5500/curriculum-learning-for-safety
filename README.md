@@ -128,12 +128,14 @@ Code released under MIT. The Cleaned-PKU-HH-SafeRLHF dataset inherits the licens
 PKU-SafeRLHF (CC BY-NC 4.0) and HH-RLHF (MIT).
 
 ## Citation
-
 ```bibtex
-@inproceedings{stagedcompetence2026,
-  title={Curriculum Learning for Safety Alignment},
-  author={Anonymous},
-  booktitle={...},
-  year={2026}
+@misc{kumar2026curriculumlearningsafetyalignment,
+      title={Curriculum Learning for Safety Alignment}, 
+      author={Sandeep Kumar and Virginia Smith and Chhavi Yadav},
+      year={2026},
+      eprint={2605.26315},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.26315}, 
 }
 ```
