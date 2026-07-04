@@ -2,6 +2,7 @@
 
 Reference implementation for **Staged-Competence**, a curriculum-learning method for safety alignment of large language models via DPO. We also release **Cleaned-PKU-HH-SafeRLHF**, a curated safety preference dataset derived from PKU-SafeRLHF and HH-RLHF.
 
+Link: https://arxiv.org/abs/2605.26315
 ## Cleaned-PKU-HH-SafeRLHF
 
 The released dataset combines the GPT-4o-mini-filtered PKU-SafeRLHF and HH-RLHF preference pairs, keeping only those where the **chosen** response is safe and the **rejected** response is unsafe. Format:
